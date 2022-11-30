@@ -1,6 +1,3 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .cardContainer4{
     display: flex;
@@ -14,8 +11,6 @@ body{
         padding-bottom:0 ;
         font-weight: 600;
         font-size:5.5rem;
-        font-family: Arial, Helvetica, sans-serif;
-        
     }
     .descriptionTitle4{
         font-size:larger;
@@ -194,9 +189,39 @@ body{
 
 
 
-@media (max-width:570px){
+@media (max-width: 760px){
+    .cardContainer4{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 6em;
+        
+        .falcon9Title{
+            font-weight: 600;
+            font-size:5.5rem;
+        }
+        .descriptionTitle4{
+            font-size:larger;
+        }
+    }
+
+    .cardContainer5{
+        padding-top: 1em;
+        display: flex;
+        flex-direction: column;
+        
+     
+        .cardNumberTitle{
+             font-size: 2rem;
+         }
+         .cardNumberSubTitle{
+             font-size: 1rem;
+         }
+     }
+     
+
     .falconDescriptionContainer{
-        width: 80%;
+        width: 70%;
     }
 
     .cardContainer6{
@@ -205,7 +230,7 @@ body{
      
      .cardContainer6_1{
         width:80%;
-        padding-left: 2em;
+        padding-left: 0;
      }
      
      .cardContainer6_2{

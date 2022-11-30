@@ -78,7 +78,40 @@
   margin-bottom: 1em;
   margin-top: 2em; }
 
-@media (max-width: 405px) {
+@media (max-width: 520px) {
+  .cardContainer0 {
+    padding-top: 12em; }
+  .cardContainer0 .arrowDown {
+    width: 2em;
+    margin-top: 5px; }
+
+  .cardContainer1 {
+    padding-top: 12em; }
+  .cardContainer1 .descriptionTitle1 {
+    width: 5em;
+    margin-bottom: 30px; }
+  .cardContainer1 .moreButton1 {
+    margin-bottom: 1em;
+    margin-top: 2em; }
+
+  .cardContainer2 {
+    padding-top: 12em; }
+  .cardContainer2 .descriptionTitle2 {
+    width: 5em;
+    margin-bottom: 30px; }
+  .cardContainer2 .moreButton2 {
+    margin-bottom: 1em;
+    margin-top: 2em; }
+
+  .cardContainer3 {
+    padding-top: 12em; }
+  .cardContainer3 .descriptionTitle3 {
+    width: 10em;
+    margin-bottom: 30px; }
+  .cardContainer3 .moreButton3 {
+    margin-bottom: 1em;
+    margin-top: 2em; }
+
   .logoPc {
     width: 180px;
     margin-top: 15px; }
@@ -94,9 +127,6 @@
   .logoPc {
     width: 150px;
     margin-top: 15px; } }
-body {
-  font-family: Arial, Helvetica, sans-serif; }
-
 .cardContainer4 {
   display: flex;
   flex-direction: column;
@@ -106,8 +136,7 @@ body {
   margin-bottom: 0;
   padding-bottom: 0;
   font-weight: 600;
-  font-size: 5.5rem;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-size: 5.5rem; }
 .cardContainer4 .descriptionTitle4 {
   font-size: larger; }
 
@@ -238,16 +267,36 @@ body {
   font-size: 12px;
   font-weight: 500; }
 
-@media (max-width: 570px) {
+@media (max-width: 760px) {
+  .cardContainer4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 6em; }
+  .cardContainer4 .falcon9Title {
+    font-weight: 600;
+    font-size: 5.5rem; }
+  .cardContainer4 .descriptionTitle4 {
+    font-size: larger; }
+
+  .cardContainer5 {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column; }
+  .cardContainer5 .cardNumberTitle {
+    font-size: 2rem; }
+  .cardContainer5 .cardNumberSubTitle {
+    font-size: 1rem; }
+
   .falconDescriptionContainer {
-    width: 80%; }
+    width: 70%; }
 
   .cardContainer6 {
     width: 60%; }
 
   .cardContainer6_1 {
     width: 80%;
-    padding-left: 2em; }
+    padding-left: 0; }
 
   .cardContainer6_2 {
     width: 90%;

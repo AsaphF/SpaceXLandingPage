@@ -50,8 +50,60 @@
     }
        
 
-@media (max-width: 405px) {
-        .logoPc {
+@media (max-width: 520px) {
+
+    .cardContainer0{
+        padding-top: $padding-card;
+
+        .arrowDown{
+                width: 2em;
+                margin-top: 5px;
+        }
+    }
+
+    .cardContainer1{
+        padding-top: $padding-card;
+        
+       
+        .descriptionTitle1{
+            width: 5em;
+            margin-bottom: 30px;
+        }
+
+        .moreButton1{
+            margin-bottom: 1em ;
+            margin-top: 2em;
+        }
+    }
+
+    .cardContainer2{
+        padding-top: $padding-card;
+        
+        .descriptionTitle2{
+            width: 5em;
+            margin-bottom: 30px;
+        }
+
+        .moreButton2{
+            margin-bottom: 1em ;
+            margin-top: 2em;
+        }
+    }
+
+    .cardContainer3{
+        
+        padding-top: $padding-card;
+        .descriptionTitle3{
+            width: 10em;
+            margin-bottom: 30px;
+        }
+
+        .moreButton3{
+            margin-bottom: 1em ;
+            margin-top: 2em;
+        }
+    }
+    .logoPc {
           width: 180px;
           margin-top: 15px;
         }
