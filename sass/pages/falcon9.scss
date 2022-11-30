@@ -1,0 +1,271 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardContainer4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 6em;
+
+    
+    .falcon9Title{
+        margin-bottom: 0;
+        padding-bottom:0 ;
+        font-weight: 600;
+        font-size:5.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .descriptionTitle4{
+        font-size:larger;
+    }
+}
+
+.cardContainer5{
+   padding-top: 1em;
+   display: flex;
+   flex-direction: column;
+   
+
+   .cardNumberTitle{
+        font-size: 5.5rem;
+    }
+    .cardNumberSubTitle{
+        font-size: 1rem;
+    }
+}
+
+.falconDescriptionContainer{
+    margin: 2em 3.5em;
+    align-self: flex-start;
+    width: 65%;
+
+    .falconDescription{
+        line-height: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+}
+
+.cardContainer6{
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 1em;
+   margin-top: 5em;
+   margin-left: 5em;
+   width:50%;
+
+   .table1{
+    text-align: start;
+    
+        .rowTable{
+            padding-right: 0;
+        }
+    }
+}
+
+.cardContainer6_1{
+   display: flex;
+   flex-direction: column;
+   margin-top: 7em;
+   margin-right: 26em;
+   width:45%;
+   height: 20em;
+
+   .cardContainerDescription6_1{
+        line-height: 1.9rem;
+        font-size: medium;
+        word-spacing: 0.1rem;
+        text-align: justify;
+   }
+  
+}
+
+.cardContainer6_2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-right: 25em;
+    width: 50%;
+
+
+    .cardContainerDescription6_2{
+        line-height: 1.5em;
+        font-size: medium;
+        word-spacing: 0.1rem;
+        width: 100%;
+    }
+}
+
+.cardContainer6_3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-right: 25em;
+    width: 50%;
+
+    .cardContainerDescription6_3{
+        line-height: 1.5em;
+        font-size: medium;
+        word-spacing: 0.1rem;
+        width: 100%;
+        margin-top: 0.5em
+    }
+}
+
+.cardContainer6_4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-right: 25em;
+    width: 50%;
+
+    .cardContainerDescription6_4{
+        line-height: 1.5em;
+        font-size: medium;
+        word-spacing: 0.1rem;
+        width: 100%;
+        margin-bottom: 2em;
+    }
+}
+
+.cardContainer7{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3em;
+    width: 80%;
+    text-align: justify;
+
+
+    .cardContainerTitle7{
+        margin-top: 2em;
+    }
+
+    .cardContainerDescription7{
+        width: 50%;
+        line-height: 1.5em;
+        font-size: medium;
+        word-spacing: 0.1rem;
+    }
+
+    .tableDescription7{
+        width: 50%;
+        margin-bottom: 2em;
+    }
+}
+
+.cardContainer8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24em;
+    text-align: center;
+
+
+    .falconDescriptionActs{
+        text-align: center;
+        background-color: black;
+    }
+
+}
+
+.footerContainer{
+    padding-top: 15em;
+    padding-bottom: 2em;
+    .footerContacts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footerContactsButtons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        margin-bottom: 5em;
+        height: 15vh;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+
+
+@media (max-width:570px){
+    .falconDescriptionContainer{
+        width: 80%;
+    }
+
+    .cardContainer6{
+        width:60%;
+     }
+     
+     .cardContainer6_1{
+        width:80%;
+        padding-left: 2em;
+     }
+     
+     .cardContainer6_2{
+         width: 90%;
+         padding-left: 2em;
+     }
+     
+     .cardContainer6_3{
+        width: 90%;
+        padding-left: 2em;
+
+     }
+     
+     .cardContainer6_4{
+         width: 90%;
+         padding-left: 2em;
+     
+     }
+
+     .cardContainer7{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        .cardContainerTitle7{
+            margin-top: 2em;
+        }
+    
+        .cardContainerDescription7{
+            width: 60%;
+            line-height: 1.5em;
+            font-size: medium;
+            word-spacing: 0.1rem;
+        }
+    
+        .tableDescription7{
+            width: 60%;
+            margin-bottom: 2em;
+        }
+    }
+
+    .cardContainer8{
+        .falconDescriptionActs{
+            margin-bottom: 3em;
+            padding: 1em;
+        }
+    
+    }
+    
+    .footerContainer{
+        .footerContacts{
+            .footerContactsButtons{
+                margin-top: 1em;
+            }
+            
+            .moreButton{
+                font-size: small;
+            }
+        }
+    }
+     
+}
